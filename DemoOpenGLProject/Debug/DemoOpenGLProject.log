@@ -1,0 +1,20 @@
+﻿Build started 10/6/2018 3:49:29 AM.
+     1>Project "C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\DemoOpenGLProject\DemoOpenGLProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VisualStudio2012\VC\bin\CL.exe /c /I"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\OPGL\glew-1.11.0\include" /I"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\OPGL\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\sakib\desktop\new folder (3)\demoopenglproject-master\demoopenglproject\main.cpp(199): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sakib\desktop\new folder (3)\demoopenglproject-master\demoopenglproject\main.cpp(201): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sakib\desktop\new folder (3)\demoopenglproject-master\demoopenglproject\main.cpp(210): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sakib\desktop\new folder (3)\demoopenglproject-master\demoopenglproject\main.cpp(212): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sakib\desktop\new folder (3)\demoopenglproject-master\demoopenglproject\main.cpp(364): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visualstudio2012\vc\include\conio.h(131) : see declaration of 'getch'
+       Link:
+         D:\VisualStudio2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\Debug\DemoOpenGLProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\OPGL\freeglut\lib" /LIBPATH:"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\OPGL\glew-1.11.0\lib" freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\Debug\DemoOpenGLProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\Debug\DemoOpenGLProject.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\Debug\DemoOpenGLProject.exe not found or not built by the last incremental link; performing full link
+         DemoOpenGLProject.vcxproj -> C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\Debug\DemoOpenGLProject.exe
+     1>Done Building Project "C:\Users\sakib\Desktop\New folder (3)\DemoOpenGLProject-master\DemoOpenGLProject\DemoOpenGLProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.86
